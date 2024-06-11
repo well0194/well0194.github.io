@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
@@ -12,4 +13,8 @@ section footer {
 
 h1 {
     color: blue;
+}
+
+img {
+    box-shadow: 2px 1px black;
 }
