@@ -23,6 +23,10 @@ div:nth-child(2) {
 background: red;
 }
 
+a:hover {
+    color: black;
+}
+
 /* Element CSS */
 
 .navigation {
