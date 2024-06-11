@@ -22,3 +22,11 @@ img {
 div:nth-child(2) {
 background: red;
 }
+
+.navigation {
+    background-color: aqua;
+}
+
+#new-navigation {
+    background-color: blue;
+}
