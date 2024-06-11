@@ -4,11 +4,11 @@ body {
     font-size: 18px;
 }
 section h1 {
-    background-color: dimgrey;
+    background-color: black;
 }
 
 section footer {
-    background-color: bisque;
+    background-color: black;
 }
 
 h1 {
@@ -28,6 +28,10 @@ background: red;
 
 .navigation {
     background-color: aqua;
+}
+
+a:link {
+    color: blueviolet;
 }
 
 .new-navigation {
