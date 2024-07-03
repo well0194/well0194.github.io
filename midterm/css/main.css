@@ -1,0 +1,62 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(168, 252, 252);
+}
+
+
+#background-text {
+    background-image:url('./lone-starfish-wide.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+h3 p {
+    text-indent: 100%;
+    line-height: 200;
+}
+
+/* This is to customize the navigation at the top of the website after the heading one */
+nav {
+    font-size: medium;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+}
+
+nav div {
+    border-right: 1px black solid;
+   justify-content: center;
+    flex: 1;
+}
+
+/* This is to add a border around the contact form */
+#contact-form {
+    border: 3px black solid;
+    padding: 30px;
+   
+
+}
+
+/* This is to adjust the smaller image to go to the right of the page */
+#small-image {
+    float: left;
+    width: 50px;
+    height: 10px;
+    text-align: right;
+}
