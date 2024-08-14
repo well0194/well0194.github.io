@@ -138,6 +138,11 @@ h2 {
     text-align: left;
 }
 
+.footer {
+    background-color: #000000;
+    color:#ffe6ac;
+}
+
 /* Need to have a minimum grid properties and an minimum flexbox properties */
 
 
