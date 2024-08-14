@@ -8,17 +8,134 @@
     background-image:url('./main-banner.jpg');
     background-size:cover;
     background-position: center;
-    opacity: 0.5;
 }
 
 body {
-    background-color: black;
+    font-family: sans-serif;
 }
 
-.header nav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    background-color: black;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    width: 50px;
     color: #ffe6ac;
-    font-family: sans-serif;
+    text-decoration: none;
+}
+/* Need to add header, paragraph and button over the main image */
+
+.button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header div {
+    color: #000000;
+    font-size: 20px;
+    
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.wrapper {
+    background-color: #ffe6ac;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-box {
+    background-color: #ffe6ac;
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+    font-size: 50px;
+}
+.marketing {
+    background-color: #ffe6ac;
+    text-align: left;
+    padding-top: 20px;
+}
+
+h5 {
+    text-align: left;
+    font-size: 50px;
+    padding-top: -110px;
+}
+
+h6 {
+    text-align: left;
+    font-size: 50px;
+    padding-top: -100px;
+}
+
+
+.our-vision {
     position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bob h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.bob h2 {
+    text-align: left;
+    font-size: 15px;
+}
+
+.team p {
+    font-size: 15px;
+
+}
+
+.team h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.info h2 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: center;
+}
+
+h2 {
+    text-align: left;
 }
 
 /* Need to have a minimum grid properties and an minimum flexbox properties */
